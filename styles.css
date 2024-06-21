@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+input {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 30px;
+}
