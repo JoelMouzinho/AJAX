@@ -12,7 +12,10 @@ app.post('/sum', (req, res) => {
         return res.status(400).send({ error: 'Invalid input' });
     }
     const sum = numbers.reduce((acc, num) => acc + num, 0);
-    res.send({ sum: sum });
+
+    setTimeout(() => {
+        res.send({ sum: sum });
+    }, 2000);
 });
 
 app.listen(port, () => {
